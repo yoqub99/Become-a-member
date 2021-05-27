@@ -1,0 +1,103 @@
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+.cantenin{
+    width: 1525.5px;
+    height: 932px;
+    border: 1px solid #8B8B8C;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 100px;
+    display: flex;
+}
+.text{
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.text h1{
+    font-size: 70px;
+    margin-bottom: -5px;
+    font-weight: 500;
+}
+.text_p{
+    color: #8B8B8C;
+}
+.box{
+    width: 650px;
+    height: 100px;
+    margin-top: 900px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+.box:hover{
+    color: black;
+    background-color: rgb(233, 211, 183);
+    transition: 0.33s ease;
+}
+
+.box a img{
+    width: 80px;
+    height: 30px;
+    margin: 40px 10px ;
+}
+.box h2{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    
+    margin: -70px -20px;
+}
+.box1{
+    margin-top: 90px;
+}
+.box1 ul{
+    list-style-type: none;
+}
+.box1 li{
+    margin-top: auto;  
+}
+.box a{
+    text-decoration: none;
+}
+.text3{
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+.text3 a{
+    margin-top: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.text4 {
+    color: #8B8B8C;
+    margin: 30px 175px 40px 40px;
+    font-size: 20px;
+}
+.text4:hover{
+    color: black;
+}
+.text5{
+    font-size: 20px;
+    transition: 0.33s ease;
+    margin: 30px 60px 40px 40px;
+    color: #8B8B8C;
+}
+.text5:hover{
+    color: black;
+}
+hr{
+    width: 900px;
+    height: 3px;
+    color: black;
+    margin-top: -25px;
+    margin-bottom: 40px;
+}
+.daff {
+    width: 500px;
+    height: 930px;
+    display: flex;
+}
