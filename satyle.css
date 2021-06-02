@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 
 body{
     font-family: 'Mulish', sans-serif;
@@ -9,6 +16,8 @@ body{
     border-radius: 10px;
     margin:0 auto;
     margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .text{
@@ -36,6 +45,8 @@ body{
 .box:hover{
     color: black;
     background-color: rgb(233, 211, 183);
+    -webkit-transition: 0.33s ease;
+    -o-transition: 0.33s ease;
     transition: 0.33s ease;
 }
 
@@ -82,6 +93,8 @@ body{
 }
 .text5{
     font-size: 20px;
+    -webkit-transition: 0.33s ease;
+    -o-transition: 0.33s ease;
     transition: 0.33s ease;
     margin: 30px 60px 40px 40px;
     color: #8B8B8C;
@@ -99,5 +112,7 @@ hr{
 .daff {
     width: 500px;
     height: 930px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
